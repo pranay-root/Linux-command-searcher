@@ -8,7 +8,8 @@ commands = {
     "restart apache server": "sudo systemctl restart apache2",
     "list running process": "sudo ps aux",
     "real time process": "sudo top",
-    "active listening ports": "sudo netstat -tulpn"
+    "active listening ports": "sudo netstat -tulpn",
+    "search tool": "sudo grep <keyword>"
     # Add more commands as needed
 }
 
