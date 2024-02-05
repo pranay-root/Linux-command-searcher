@@ -8,7 +8,7 @@ commands = {
     "restart apache server": "sudo systemctl restart apache2",
     "list running process": "sudo ps aux",
     "real time process": "sudo top",
-    "active listening ports": "sudo netstat -tulpn",
+    "active listening ports": "sudo netstat -tulpn"
     # Add more commands as needed
 }
 
@@ -27,7 +27,7 @@ def find_matching_command(search_terms):
   return None
 
 def main():
-  search_terms = " ".join(sys.argv[1:]).lower().split()  # Capture all input, convert to lowercase, and split
+  search_terms = " ".join(sys.argv[1:]).lower().split()  
 
   matching_command = find_matching_command(search_terms)
 
